@@ -1,6 +1,6 @@
 .gifts-centent-cntlr{
 	background: #f2f2f2;
-
+	overflow: hidden;
 }
 .gifts-wing-left{
 	position: absolute;
