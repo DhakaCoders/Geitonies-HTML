@@ -16,3 +16,14 @@
 	right: 0%;
 	z-index: 1;
 }
+.gifts-slider-item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gifts-page-entry-hdr{
+	max-width: 930px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
