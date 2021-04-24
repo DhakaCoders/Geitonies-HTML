@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'St-Transmission-SemiBold';
+    src: url('St-Transmission-SemiBold/St-Transmission-SemiBold.eot');
+    src: url('St-Transmission-SemiBold/St-Transmission-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('St-Transmission-SemiBold/St-Transmission-SemiBold.woff2') format('woff2'),
+        url('St-Transmission-SemiBold/St-Transmission-SemiBold.woff') format('woff'),
+        url('St-Transmission-SemiBold/St-Transmission-SemiBold.ttf') format('truetype'),
+        url('St-Transmission-SemiBold/St-Transmission-SemiBold.svg#St-Transmission-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

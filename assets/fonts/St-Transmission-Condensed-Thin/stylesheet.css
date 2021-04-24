@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'St-Transmission-Condensed-Thin';
+    src: url('St-Transmission-Condensed-Thin/St-Transmission-Condensed-Thin.eot');
+    src: url('St-Transmission-Condensed-Thin/St-Transmission-Condensed-Thin.eot?#iefix') format('embedded-opentype'),
+        url('St-Transmission-Condensed-Thin/St-Transmission-Condensed-Thin.woff2') format('woff2'),
+        url('St-Transmission-Condensed-Thin/St-Transmission-Condensed-Thin.woff') format('woff'),
+        url('St-Transmission-Condensed-Thin/St-Transmission-Condensed-Thin.ttf') format('truetype'),
+        url('St-Transmission-Condensed-Thin/St-Transmission-Condensed-Thin.svg#St-Transmission-Condensed-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
