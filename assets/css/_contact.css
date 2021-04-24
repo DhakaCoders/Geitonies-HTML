@@ -21,6 +21,9 @@
 	color: #002677;
 	font-family: 'St-Transmission-SemiBold';
 }
+.page-entry-hdr-title span{
+	color: #BC3713;
+}
 .page-entry-hdr-title.cntc-title{
 	margin-bottom: 7px;
 	text-transform: uppercase;
@@ -55,26 +58,28 @@
 	border-radius: 10px;
 }
 
-.mack-contact-sec-inr .form .cnt-btn input[type=submit]{
-	font-size: 22px;
-	width: 168px;
-	height: 48px;
+.contact-form .form .cnt-btn input[type=submit]{
+	font-size: 20px;
+	width: 134px;
+	height: 60px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: #4bc600;
-	border: 2px solid #4bc600;
+	background: #002677;
+	border: 2px solid #002677;
 	color: #fff;
+	font-family: 'St-Transmission-SemiBold';
 	cursor: pointer;
+	padding: 5px 10px;
 }
 
-.mack-contact-sec-inr .form .cnt-btn input[type=submit]:hover{
-	background: transparent;
-	color: #4bc600;
+.contact-form .form .cnt-btn input[type=submit]:hover{
+	background: #fff;
+	color: #002677;
 }
 
 .contact-form .form .inputField input:focus{
-	border: 1px solid #6BC4E8;
+	border: 1px solid #BC3713;
 }
 
 .contact-form .form .inputField input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -124,7 +129,7 @@
 }
 .filter-check-row{
 	position: relative;
-	padding: 0 15px 15px 20px;
+	padding: 0 15px 15px 25px;
 	font-size: 15px;
 }
 
@@ -166,10 +171,10 @@
 }
 
 .filter-check-row .checkmark::after {
-	left: 5px;
-	top: 2px;
-	width: 11px;
-	height: 15px;
+	left: 6px;
+	top: 3px;
+	width: 9px;
+	height: 12px;
 	border: solid #6BC4E8;
 	border-width: 0 3px 3px 0;
 	-webkit-transform: rotate(45deg);
@@ -182,11 +187,10 @@
 	display: inline-block;
 	vertical-align: middle;
 	padding-left: 10px;
-	font-weight: 600;
-	color: #7B8CA8;
+	color: #6BC4E8;
 	cursor: pointer;
 	margin: 0;
-	text-transform: uppercase;
+	font-size: 15px;
 	line-height: 1;
 }
 
