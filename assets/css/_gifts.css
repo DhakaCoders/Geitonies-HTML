@@ -1,0 +1,18 @@
+.gifts-centent-cntlr{
+	background: #f2f2f2;
+
+}
+.gifts-wing-left{
+	position: absolute;
+	top: 44px;
+	bottom: 44px;
+	left: -36.06%;
+	z-index: 4;
+}
+.gifts-wing-right{
+	position: absolute;
+	top: 44px;
+	bottom: 44px;
+	right: -36.06%;
+	z-index: 4;
+}
