@@ -26,6 +26,40 @@ nav.main-nav ul li{
 nav.main-nav ul li a{
 	display: flex;
 	align-items: center;
+	max-width: 336px;
+	color: #002677;
+	font-size: 16px;
+	line-height: 1;
+}
+nav.main-nav ul li a i{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	width: 86px;
+	height: 86px;
+	background: url(../images/rhombus.svg);
+	background-size: 100% auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav.main-nav ul li a span{
+	display: block;
+	margin-left: 40px;
+	border-radius: 5px;
+	background: #FFFFFF;
+	height: 52px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+nav.main-nav ul li a span label{
+	padding-left: 40px;
+	margin: 0;
 }
 nav.main-nav > ul{
 
@@ -50,7 +84,10 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	
 }
 
-
+nav.main-nav ul li.fix-Park-menu-item{
+	right: 17px;
+	bottom: 0;
+}
 nav.main-nav ul li.fix-Park-menu-item{
 	right: 44px;
 	bottom: 0;
