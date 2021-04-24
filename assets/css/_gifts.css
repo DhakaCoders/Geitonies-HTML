@@ -6,13 +6,13 @@
 	position: absolute;
 	top: 44px;
 	bottom: 44px;
-	left: -36.06%;
-	z-index: 4;
+	left: 0%;
+	z-index: 1;
 }
 .gifts-wing-right{
 	position: absolute;
 	top: 44px;
 	bottom: 44px;
-	right: -36.06%;
-	z-index: 4;
+	right: 0%;
+	z-index: 1;
 }
