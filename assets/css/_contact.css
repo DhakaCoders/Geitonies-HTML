@@ -204,3 +204,30 @@
 	margin-left: 25px;
 }
 
+
+
+
+
+.contact-btm-logo{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: -95px;
+	margin-right: -20px;
+}
+
+.contact-btm-logo ul{
+	margin-left: -7px;
+	margin-right: -7px;
+}
+.contact-btm-logo ul li{
+	display: inline-block;
+	vertical-align: baseline;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+.contact-btm-logo ul li a{
+	display: inline-block;
+	vertical-align: baseline;
+}
+
