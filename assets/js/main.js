@@ -212,6 +212,18 @@ if( $('.GiftsSlider').length ){
   });
 }
 
+if( $('.fxParkSlider').length ){
+  $('.fxParkSlider').slick({
+    dots: true,
+    infinite: false,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    speed: 700,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  });
+}
+
 
 
 /*start of Rannojit*/

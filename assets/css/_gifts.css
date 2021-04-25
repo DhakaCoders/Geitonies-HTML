@@ -1,17 +1,17 @@
 .gifts-centent-cntlr{
-	background: #f2f2f2;
+	background: #ccc;
 	overflow: hidden;
 }
 .gifts-wing-left{
 	position: absolute;
-	top: 44px;
+	top: 0;
 	bottom: 44px;
 	left: 0%;
 	z-index: 1;
 }
 .gifts-wing-right{
 	position: absolute;
-	top: 44px;
+	top: 0;
 	bottom: 44px;
 	right: 0%;
 	z-index: 1;
@@ -20,10 +20,21 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 }
 .gifts-page-entry-hdr{
 	max-width: 930px;
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.GiftsSlider.slick-slider ul.slick-dots,
+.fxParkSlider.slick-slider ul.slick-dots{
+	position: absolute;
+	top: 100%;
+	margin-top: 90px;
+}
+.GiftsSlider.slick-slider .slick-prev, .GiftsSlider.slick-slider .slick-next{
+	
 }
