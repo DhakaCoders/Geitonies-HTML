@@ -34,17 +34,17 @@
 	z-index: 2;
 }
 .up-home-angle {
-    top: -466px;
-    margin-left: -95px;
+    top: -430px;
+    margin-left: -114px;
 }
 .down-home-angle {
-    bottom: -758px;
-    margin-left: 17px;
+    bottom: -734px;
+    margin-left: 12px;
 }
 .down-home-angle img{
-	max-width: 900px;
+/*	max-width: 950px;
 	width: 100%;
-	height: auto;
+	height: auto;*/
 }
 .home-centent-bg{
 	position: absolute;
@@ -54,7 +54,6 @@
 	bottom: 0;
 	z-index: 1;
 	background-size: cover!important;
-	background-position: center bottom!important;
 	background-repeat: no-repeat!important;
 }
 
@@ -62,16 +61,20 @@
 	max-width: 920px;
 	width: 100%;
 	height: 920px;
-	background: url(../images/home-rhombus.svg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	position: relative;
 	z-index: 20;
 }
-
+.home-con-cntlr-inr{
+	background: url(../images/home-rhombus.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	margin-left: -25px;
+}
 .hm-con-des{
 	max-width: 520px;
 	width: 100%;
