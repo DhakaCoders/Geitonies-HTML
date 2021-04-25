@@ -1,6 +1,18 @@
 .contact-sec-centent-cntlr{
 	background: #899bc1;
+	/*position: relative;*/
 }
+
+/*.contact-form-lft-img{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.contact-form-rgt-img{
+	position: absolute;
+	top: 0;
+	right: 0;
+}*/
 
 
 .contact-sec{
