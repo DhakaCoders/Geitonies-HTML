@@ -335,3 +335,26 @@ form .dropdown-menu li a{
 .hmProdctGrdsSlider.slick-initialized .hmProdctGrdsSlideItme{
 	display: block;
 }
+
+
+
+/*common button*/
+
+a.fl-transparent{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 18px;
+	line-height: 1;
+	color: #002677;
+	text-decoration: underline;
+}
+a.fl-blue-btn{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 20px;
+	line-height: 1;
+	font-family: 'St-Transmission-SemiBold';
+	background: #002677;
+	color: #fff;
+	padding: 18px 15px;
+}
