@@ -340,7 +340,7 @@ form .dropdown-menu li a{
 
 /*common button*/
 
-a.transparent{
+a.fl-transparent{
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 18px;
@@ -348,7 +348,7 @@ a.transparent{
 	color: #002677;
 	text-decoration: underline;
 }
-a.blue-btn{
+a.fl-blue-btn{
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 20px;
