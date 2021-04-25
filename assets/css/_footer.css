@@ -1,0 +1,36 @@
+.btm-menu-cntlr{
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 20;
+}
+
+.btm-nav ul li{
+	display: inline-block;
+	vertical-align: baseline;
+	padding: 0 10px;
+	position: relative;
+	font-size: 15px;
+	line-height: 1;
+	font-family: 'St-Transmission-SemiBold';
+}
+
+.btm-nav ul li:not(:last-child):after{
+	content: "";
+	height: 14px;
+	width: 2px;
+	background: #0f2556;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	right: 0;
+	margin-left: -1px;
+}
+
+.btm-nav ul li a{
+	display: inline-block;
+	vertical-align: baseline;
+	color: #002677;
+}

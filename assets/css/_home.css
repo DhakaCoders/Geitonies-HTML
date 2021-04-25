@@ -1,5 +1,7 @@
 .page-body-cntlr{
 	min-height: 1080px;
+	position: relative;
+	height: 100%;
 }
 .page-section-cntlr{
 	position: absolute;
@@ -16,6 +18,33 @@
 	z-index: 2;
 	display: flex;
 	align-items: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.home-centent-cntlr{
+	overflow: hidden;
+}
+.up-home-angle,
+.down-home-angle{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	z-index: 2;
+}
+.up-home-angle {
+    top: -430px;
+    margin-left: -114px;
+}
+.down-home-angle {
+    bottom: -734px;
+    margin-left: 12px;
+}
+.down-home-angle img{
+/*	max-width: 950px;
+	width: 100%;
+	height: auto;*/
 }
 .home-centent-bg{
 	position: absolute;
@@ -25,6 +54,47 @@
 	bottom: 0;
 	z-index: 1;
 	background-size: cover!important;
-	background-position: center bottom!important;
 	background-repeat: no-repeat!important;
+}
+
+.home-con-cntlr{
+	max-width: 920px;
+	width: 100%;
+	height: 920px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position: relative;
+	z-index: 20;
+}
+.home-con-cntlr-inr{
+	background: url(../images/home-rhombus.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	margin-left: -25px;
+}
+.hm-con-des{
+	max-width: 520px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.hm-des-top-img{
+	padding: 125px 0 40px;
+}
+.hm-con-des p strong{
+	font-weight: normal;
+	font-family: 'St-Transmission-SemiBold';
+}
+
+.hm-con-des-btn{
+	padding-top: 13px;
+	padding-bottom: 35px;
+}
+
+.hm-des-btm-img img{
+	max-width: 358px;
+	height: auto;
 }
