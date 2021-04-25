@@ -194,3 +194,13 @@
 	line-height: 1;
 }
 
+
+
+.contact-btn{
+	display: flex;
+	align-items: center;
+}
+.cnct-transparent-btn{
+	margin-left: 25px;
+}
+
