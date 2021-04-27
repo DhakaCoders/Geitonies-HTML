@@ -348,6 +348,10 @@ a.fl-transparent{
 	color: #002677;
 	text-decoration: underline;
 }
+a.fl-transparent:hover{
+	color: #6BC4E8;
+	text-decoration: underline;
+}
 a.fl-blue-btn{
 	display: inline-block;
 	vertical-align: baseline;
@@ -357,4 +361,8 @@ a.fl-blue-btn{
 	background: #002677;
 	color: #fff;
 	padding: 18px 15px;
+}
+a.fl-blue-btn:hover{
+	background: #6BC4E8;
+	border-color: #6BC4E8;
 }
