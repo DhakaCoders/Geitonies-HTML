@@ -86,8 +86,8 @@
 }
 
 .contact-form .form .cnt-btn input[type=submit]:hover{
-	background: #fff;
-	color: #002677;
+	background: #6BC4E8;
+	border-color: #6BC4E8;
 }
 
 .contact-form .form .inputField input:focus{
