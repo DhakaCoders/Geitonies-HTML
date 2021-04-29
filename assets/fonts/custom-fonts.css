@@ -28,44 +28,57 @@
 }
 
 @font-face {
-    font-family: 'St-Transmission-Condensed-Thin';
-    src: url('St-Transmission-Condensed-Thin/St-Transmission-Condensed-Thin.eot');
-    src: url('St-Transmission-Condensed-Thin/St-Transmission-Condensed-Thin.eot?#iefix') format('embedded-opentype'),
-        url('St-Transmission-Condensed-Thin/St-Transmission-Condensed-Thin.woff2') format('woff2'),
-        url('St-Transmission-Condensed-Thin/St-Transmission-Condensed-Thin.woff') format('woff'),
-        url('St-Transmission-Condensed-Thin/St-Transmission-Condensed-Thin.ttf') format('truetype'),
-        url('St-Transmission-Condensed-Thin/St-Transmission-Condensed-Thin.svg#St-Transmission-Condensed-Thin') format('svg');
+    font-family: 'StTransmission-400Regular';
+    src: url('StTransmission-400Regular/StTransmission-400Regular.eot');
+    src: url('StTransmission-400Regular/StTransmission-400Regular.eot?#iefix') format('embedded-opentype'),
+        url('StTransmission-400Regular/StTransmission-400Regular.woff2') format('woff2'),
+        url('StTransmission-400Regular/StTransmission-400Regular.woff') format('woff'),
+        url('StTransmission-400Regular/StTransmission-400Regular.ttf') format('truetype'),
+        url('StTransmission-400Regular/StTransmission-400Regular.svg#StTransmission-400Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'StTransmission-100CondensedThin';
+    src: url('StTransmission-100CondensedThin/StTransmission-100CondensedThin.eot');
+    src: url('StTransmission-100CondensedThin/StTransmission-100CondensedThin.eot?#iefix') format('embedded-opentype'),
+        url('StTransmission-100CondensedThin/StTransmission-100CondensedThin.woff2') format('woff2'),
+        url('StTransmission-100CondensedThin/StTransmission-100CondensedThin.woff') format('woff'),
+        url('StTransmission-100CondensedThin/StTransmission-100CondensedThin.ttf') format('truetype'),
+        url('StTransmission-100CondensedThin/StTransmission-100CondensedThin.svg#StTransmission-100CondensedThin') format('svg');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
 
+
 @font-face {
-    font-family: 'St-Transmission-SemiBold';
-    src: url('St-Transmission-SemiBold/St-Transmission-SemiBold.eot');
-    src: url('St-Transmission-SemiBold/St-Transmission-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('St-Transmission-SemiBold/St-Transmission-SemiBold.woff2') format('woff2'),
-        url('St-Transmission-SemiBold/St-Transmission-SemiBold.woff') format('woff'),
-        url('St-Transmission-SemiBold/St-Transmission-SemiBold.ttf') format('truetype'),
-        url('St-Transmission-SemiBold/St-Transmission-SemiBold.svg#St-Transmission-SemiBold') format('svg');
+    font-family: 'StTransmission-600SemiBold';
+    src: url('StTransmission-600SemiBold/StTransmission-600SemiBold.eot');
+    src: url('StTransmission-600SemiBold/StTransmission-600SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('StTransmission-600SemiBold/StTransmission-600SemiBold.woff2') format('woff2'),
+        url('StTransmission-600SemiBold/StTransmission-600SemiBold.woff') format('woff'),
+        url('StTransmission-600SemiBold/StTransmission-600SemiBold.ttf') format('truetype'),
+        url('StTransmission-600SemiBold/StTransmission-600SemiBold.svg#StTransmission-600SemiBold') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 
-
 @font-face {
-    font-family: 'St-Transmission-Regular';
-    src: url('St-Transmission-Regular/St-Transmission-Regular.eot');
-    src: url('St-Transmission-Regular/St-Transmission-Regular.eot?#iefix') format('embedded-opentype'),
-        url('St-Transmission-Regular/St-Transmission-Regular.woff2') format('woff2'),
-        url('St-Transmission-Regular/St-Transmission-Regular.woff') format('woff'),
-        url('St-Transmission-Regular/St-Transmission-Regular.ttf') format('truetype'),
-        url('St-Transmission-Regular/St-Transmission-Regular.svg#St-Transmission-Regular') format('svg');
-    font-weight: 400;
+    font-family: 'StTransmission-900CondensedExtr';
+    src: url('StTransmission-900CondensedExtr/StTransmission-900CondensedExtr.eot');
+    src: url('StTransmission-900CondensedExtr/StTransmission-900CondensedExtr.eot?#iefix') format('embedded-opentype'),
+        url('StTransmission-900CondensedExtr/StTransmission-900CondensedExtr.woff2') format('woff2'),
+        url('StTransmission-900CondensedExtr/StTransmission-900CondensedExtr.woff') format('woff'),
+        url('StTransmission-900CondensedExtr/StTransmission-900CondensedExtr.ttf') format('truetype'),
+        url('StTransmission-900CondensedExtr/StTransmission-900CondensedExtr.svg#StTransmission-900CondensedExtr') format('svg');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
+
 
 
 
