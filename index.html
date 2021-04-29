@@ -6,12 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!--   <?php $favicon = get_theme_mod('favicon'); if(!empty($favicon)) { ?> 
-  <link rel="shortcut icon" href="<?php echo $favicon; ?>" />
-  <?php } ?> -->
-
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
   <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
   
@@ -19,7 +14,10 @@
   <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/swiper/swiper-bundle.min.css">
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
+
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
@@ -30,90 +28,31 @@
 
 </head>
 <body>
-<header class="header">
-  <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="header-inr clearfix">
-            <div class="hdr-lft">
-              <div class="logo">
-                <a href="#"><img src="assets/images/logo.png"></a>
-              </div>
-            </div>
-            <div class="hdr-rgt">
-              <nav class="main-nav">
-                <ol class="clearfix">
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                </ol>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
+
+<div class="page-body-cntlr">
+  <div class="sitemap">
+    <h2>Sitemap</h2>
+    <nav>
+      <ul>
+        <li><a href="front-page.html" target="_blank">Home</a></li>
+        <li><a href="beers.html" target="_blank">Beers</a></li>
+        <li><a href="fix-park.html" target="_blank">Fix park</a></li>
+        <li><a href="gifts.html" target="_blank">Gifts</a></li>
+        <li><a href="percentages.html" target="_blank">Percentages</a></li>
+        <li><a href="maps.html" target="_blank">Maps</a></li>
+        <li><a href="contact.html" target="_blank">Contact</a></li>
+      </ul>
+    </nav>
   </div>
-</header>
-
-<section class="main-content">
-  <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-        </div>
-        <div class="col-md-6">
-        </div>
-      </div>
-  </div>    
-</section>
-
-
-
-<section class="main-content">
-  <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="sitemap">
-            <h2>Sitemap</h2>
-            <nav>
-              <ul>
-                <li><a href="front-page.html" target="_blank">Home</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-  </div>    
-</section>
-
-
-<div class="">
-  <div id="mapID" class="" data-latitude="23.7749" data-longitude="90.3657" style="width:100%; height:295px"></div>
 </div>
 
 
 
-<!-- -- Gap markup--- -->
-<div class="gap" data-value='100' data-md='50' data-xs='40' data-sm='30' data-xxs='20'></div>
-<div class="margin" data-value='100'></div>
-<div class="padding" data-value='100'></div>
 
 
 
-
-<footer class="footer-wrp">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-          <div class="ftr-col">
-          </div>
-      </div>
-    </div>
-  </div> 
-</footer>
 
 <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
@@ -123,7 +62,9 @@
 <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 <script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
 <script src="assets/slick.slider/slick.js"></script>
+<script src="assets/swiper/swiper-bundle.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaRQsAJCZyyD6MbCg0jB_0sdLGEOxt97Y"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
 <script src="assets/js/jquery.matchHeight-min.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/wow.min.js"></script>
