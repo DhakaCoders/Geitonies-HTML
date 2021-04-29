@@ -26,6 +26,10 @@ p{
 	line-height: 1.2;
 	margin-bottom: 15px;
 }
+strong,b{
+	font-weight: normal;
+    font-family: 'StTransmission-600SemiBold';
+}
 ::selection {
   color: #fff;
   background: #512C36;
@@ -357,7 +361,7 @@ a.fl-blue-btn{
 	vertical-align: baseline;
 	font-size: 20px;
 	line-height: 1;
-	font-family: 'St-Transmission-SemiBold';
+    font-family: 'StTransmission-600SemiBold';
 	background: #002677;
 	color: #fff;
 	padding: 18px 15px;

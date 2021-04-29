@@ -34,12 +34,12 @@
 	z-index: 2;
 }
 .up-home-angle {
-    top: -430px;
-    margin-left: -114px;
+    top: -464px;
+    margin-left: -116px;
 }
 .down-home-angle {
-    bottom: -734px;
-    margin-left: 12px;
+    bottom: -758px;
+    margin-left: 11px;
 }
 .down-home-angle img{
 /*	max-width: 950px;
@@ -58,7 +58,7 @@
 }
 
 .home-con-cntlr{
-	max-width: 920px;
+	max-width: 1033px;
 	width: 100%;
 	height: 920px;
 	margin-left: auto;
@@ -80,13 +80,16 @@
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 20px;
 }
 .hm-des-top-img{
-	padding: 125px 0 40px;
+	padding: 125px 0 35px;
+}
+.hm-con-des p{
+	margin-bottom: 10px;
 }
 .hm-con-des p strong{
 	font-weight: normal;
-	font-family: 'St-Transmission-SemiBold';
 }
 
 .hm-con-des-btn{
@@ -95,6 +98,6 @@
 }
 
 .hm-des-btm-img img{
-	max-width: 358px;
+	max-width: 342px;
 	height: auto;
 }
