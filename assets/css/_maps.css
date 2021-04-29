@@ -89,7 +89,7 @@
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 }
-.map-sidebar-menu ul li.active a:hover,
+.map-sidebar-menu ul li a:hover,
 .map-sidebar-menu ul li.active a{
 	color: #6BC4E8;
 }
@@ -137,8 +137,22 @@
 .map-sidebar-btn span.open-line{
 	opacity: 0!important;
 }
-/*
-#map{
+
+/*#map,
+#map div{
 	width: 100%!important;
 	height: 100%!important;
-}*/
+}
+*/
+.map_box_container{
+  position: relative;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+#map {
+position: absolute;
+top: 0;
+bottom: 0;
+width: 100%;
+}

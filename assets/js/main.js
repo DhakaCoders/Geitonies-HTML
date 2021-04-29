@@ -240,6 +240,9 @@ if( $('.fxParkSlider').length ){
 $('.map-sidebar-btn').on('click', function(){
   $('.map-sidebar-cntlr').toggleClass('map-sidebar-expend');
 });
+/*map.on('load', function () {
+    map.resize();
+});*/
 
 /*
 mapboxgl.accessToken = 'pk.eyJ1IjoicmFuaml0c2Fya2FyIiwiYSI6ImNrbzEzMHcxczA2bzgyb2xiZ3E0ZTk5djcifQ.ZmboMHcA3P9QZnmxZLcWaw';
