@@ -12,7 +12,7 @@
 	position: relative;
 	font-size: 15px;
 	line-height: 1;
-	font-family: 'St-Transmission-SemiBold';
+	font-family: 'StTransmission-600SemiBold';
 }
 
 .btm-nav ul li:not(:last-child):after{
