@@ -1,0 +1,9 @@
+.map-sidebar-cntlr{
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #fff;
+	max-width: 400%;
+	width: 100%;
+}
