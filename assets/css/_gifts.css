@@ -5,15 +5,15 @@
 .gifts-wing-left{
 	position: absolute;
 	top: 0;
-	bottom: 44px;
-	left: 0%;
+	bottom: 0;
+	left: 0;
 	z-index: 1;
 }
 .gifts-wing-right{
 	position: absolute;
 	top: 0;
-	bottom: 44px;
-	right: 0%;
+	bottom: 0;
+	right: 0;
 	z-index: 1;
 }
 .gifts-slider-item{
