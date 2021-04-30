@@ -17,3 +17,34 @@
 	margin-bottom: 30px;
 }
 
+
+@media(max-width: 1199px){
+
+}
+@media(max-width: 991px){
+	.beers-sec-inr p br{
+		display: none;
+	}
+}
+@media(max-width: 767px){
+	.beers-sec-inr{
+		max-width: 100%;
+		width: 100%;
+	}
+	.beers-sec-inr i{
+		margin-bottom: 20px;
+	}
+	.beers-sec-inr > img {
+	    margin-bottom: 20px;
+	}
+}
+@media(max-width: 575px){
+
+}
+@media(max-width: 479px){
+
+}
+@media(max-width: 359px){
+
+}
+
