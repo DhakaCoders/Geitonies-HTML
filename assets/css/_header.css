@@ -30,6 +30,10 @@ nav.main-nav ul li a{
 	line-height: 1;
 	font-family: 'StTransmission-600SemiBold';
 	position: relative;
+	cursor: pointer;
+}
+nav.main-nav ul li a:hover{
+	opacity: .8;
 }
 nav.main-nav ul li a i{
 	position: absolute;
