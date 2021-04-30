@@ -197,9 +197,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
   }, false);
 })();
 
-
-
-/*start of Noyon*/
 if( $('.GiftsSlider').length ){
   $('.GiftsSlider').slick({
     dots: true,
@@ -224,18 +221,6 @@ if( $('.fxParkSlider').length ){
   });
 }
 
-
-
-
-
-
-
-/*start of Shariful*/
-
-
-
-
-/*start of Rannojit*/
 
 $('.map-sidebar-btn').on('click', function(){
   $('.map-sidebar-cntlr').toggleClass('map-sidebar-expend');
