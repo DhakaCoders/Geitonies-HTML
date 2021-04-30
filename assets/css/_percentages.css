@@ -26,7 +26,7 @@
 }
 .prcntg-leaf-icon{
 	position: absolute;
-	bottom: 255px;
+	bottom:  23.611%;
 	margin-left: 125px;
 	left: 50%;
 	transform: translateX(-50%);
@@ -47,14 +47,14 @@
 .prcntg-lamp-icon{
 	position: absolute;
 	right: 70px;
-	top: 395px;
+	top: 36.574%;
 	
 	
 }
 .prcntg-bird-icon{
 	position: absolute;
-	right: 150px;
-	bottom: 123px;
+	right:  12.135%;
+	bottom:  11.388%;
 }
 .prcntg-sec-cntlr{
 	max-width: 1236px;
