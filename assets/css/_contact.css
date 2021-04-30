@@ -31,7 +31,7 @@
 .page-entry-hdr-title{
 	margin-bottom: 15px;
 	color: #002677;
-	font-family: 'St-Transmission-SemiBold';
+	font-family: 'StTransmission-600SemiBold';
 }
 .page-entry-hdr-title span{
 	color: #BC3713;
@@ -80,7 +80,7 @@
 	background: #002677;
 	border: 2px solid #002677;
 	color: #fff;
-	font-family: 'St-Transmission-SemiBold';
+	font-family: 'StTransmission-600SemiBold';
 	cursor: pointer;
 	padding: 5px 10px;
 }
