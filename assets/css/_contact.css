@@ -31,7 +31,7 @@
 .page-entry-hdr-title{
 	margin-bottom: 15px;
 	color: #002677;
-	font-family: 'St-Transmission-SemiBold';
+	font-family: 'StTransmission-600SemiBold';
 }
 .page-entry-hdr-title span{
 	color: #BC3713;
@@ -80,7 +80,7 @@
 	background: #002677;
 	border: 2px solid #002677;
 	color: #fff;
-	font-family: 'St-Transmission-SemiBold';
+	font-family: 'StTransmission-600SemiBold';
 	cursor: pointer;
 	padding: 5px 10px;
 }
@@ -241,5 +241,77 @@
 .contact-btm-logo ul li a{
 	display: inline-block;
 	vertical-align: baseline;
+}
+
+
+@media(max-width: 1199px){
+	.contact-sec{
+		max-width: 900px;
+    	width: 100%;
+    	border-radius: 60px;
+	}
+	.contact-sec-inr {
+	    padding: 90px 70px 80px;
+	}
+}
+@media(max-width: 991px){
+	.contact-sec {
+	    max-width: 700px;
+	    width: 100%;
+	    border-radius: 40px;
+	}
+	.contact-sec-inr {
+	    padding: 75px 50px 60px;
+	}
+}
+@media(max-width: 767px){
+	.contact-form-lft-img,
+	.contact-form-rgt-img{
+		display: none;
+	}
+	.contact-sec {
+	    max-width: 500px;
+	    width: 100%;
+	    border-radius: 20px;
+	}
+	.contact-sec-inr {
+	    padding: 60px 30px 50px;
+	}
+	.contact-sec-centent-cntlr .page-entry-hdr p{
+		margin-bottom: 20px;
+	}
+	.contact-btm-logo {
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    margin-top: 30px;
+	    margin-right: 0;
+	}
+}
+@media(max-width: 575px){
+	.contact-sec{
+		max-width: 400px;
+		width: 100%;
+	}
+	.contact-sec-inr {
+	    padding: 50px 20px 40px;
+	}
+}
+@media(max-width: 479px){
+	.contact-sec {
+	    max-width: 300px;
+	    width: 100%;
+	}
+	.contact-btm-logo ul li{
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.contact-btm-logo ul li a img{
+		max-width: 58px;
+		width: 100%;
+	}
+}
+@media(max-width: 359px){
+
 }
 
