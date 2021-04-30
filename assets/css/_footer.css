@@ -34,3 +34,6 @@
 	vertical-align: baseline;
 	color: #002677;
 }
+.btm-nav ul li a:hover{
+	opacity: .7;
+}
