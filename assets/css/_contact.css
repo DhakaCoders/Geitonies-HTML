@@ -243,3 +243,35 @@
 	vertical-align: baseline;
 }
 
+
+@media(max-width: 1199px){
+	.contact-sec{
+		max-width: 900px;
+    	width: 100%;
+	}
+	.contact-sec-inr {
+	    padding: 90px 70px 80px;
+	}
+}
+@media(max-width: 991px){
+	.contact-sec {
+	    max-width: 700px;
+	    width: 100%;
+	}
+	.contact-sec-inr {
+	    padding: 75px 50px 60px;
+	}
+}
+@media(max-width: 767px){
+
+}
+@media(max-width: 575px){
+
+}
+@media(max-width: 479px){
+
+}
+@media(max-width: 359px){
+
+}
+
