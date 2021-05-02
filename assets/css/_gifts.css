@@ -135,7 +135,9 @@
 	.GiftsSlider .slick-next, 
 	.GiftsSlider .slick-prev,
 	.fxParkSlider .slick-next, 
-	.fxParkSlider .slick-prev{
+	.fxParkSlider .slick-prev,
+	.prcntgSlider.slick-slider .slick-prev,
+	.prcntgSlider.slick-slider .slick-next{
 		background-size: contain!important;
 		height: 60px;
 		width: 32px;
@@ -187,6 +189,15 @@
 		background-size: contain!important;
 		height: 40px;
 		width: 20px;
+	}
+	
+	.GiftsSlider .slick-next,  
+	.fxParkSlider .slick-next{
+		right: -20px;
+	}
+	.GiftsSlider .slick-prev,
+	.fxParkSlider .slick-prev{
+		left: -20px;
 	}
 }
 @media(max-width: 639px){

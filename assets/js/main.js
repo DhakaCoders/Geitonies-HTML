@@ -197,6 +197,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
   }, false);
 })();
 
+  /*start of noyon*/
+
+
 if( $('.GiftsSlider').length ){
   $('.GiftsSlider').slick({
     dots: true,
@@ -219,6 +222,20 @@ if( $('.fxParkSlider').length ){
     slidesToShow: 1,
     slidesToScroll: 1
   });
+}
+
+if (windowWidth <= 992) {
+  if( $('.prcntgSlider').length ){
+    $('.prcntgSlider').slick({
+      dots: false,
+      infinite: false,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      speed: 700,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  }
 }
 
 
@@ -308,6 +325,20 @@ new mapboxgl.Marker(el)
 .setLngLat(marker.geometry.coordinates)
 .addTo(map);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     new WOW().init();
 
 })(jQuery);
