@@ -1,3 +1,4 @@
+
 .gifts-centent-cntlr{
 	background: #ccc;
 	overflow: hidden;
@@ -34,6 +35,39 @@
 	z-index: 1;
 	display: flex;
 	align-items: center;
+}
+.gifts-wing-mbl-top,
+.gifts-wing-mbl-btm,
+.gifts-wing-xs-top,
+.gifts-wing-xs-btm{
+	display: none;
+	position: absolute;
+	right: 0;
+	left: 0;
+}
+.gifts-wing-mbl-top img,
+.gifts-wing-mbl-btm img{
+	display: inline-block;
+	max-width: 500px;
+	width: 100%;
+}
+.gifts-wing-mbl-top{
+	top: 0;
+}
+.gifts-wing-mbl-btm{
+	bottom: 0;
+}
+.gifts-wing-xs-top{
+	top: 0;
+}
+.gifts-wing-xs-btm{
+	bottom: 0;
+}
+.gifts-centent-cntlr .gifts-wing-left{
+	top: -80px;
+}
+.gifts-centent-cntlr .gifts-wing-right{
+	top: -80px;
 }
 .gifts-slider-item-cntlr{
 	display: none;
@@ -94,15 +128,37 @@
 	
 }
 @media(max-width: 1399px){
-
+	.gifts-wing-left img,
+	.gifts-wing-right img{
+		max-width: 200px;
+	}
+	.GiftsSlider .slick-next, 
+	.GiftsSlider .slick-prev,
+	.fxParkSlider .slick-next, 
+	.fxParkSlider .slick-prev{
+		background-size: contain!important;
+		height: 60px;
+		width: 32px;
+	}
 }
 @media(max-width: 1299px){
-	
+	.gifts-centent-inr{
+		max-width: 800px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 @media(max-width: 1199px){
 }
 @media(max-width: 991px){
-	
+	.gifts-centent-inr{
+		max-width: 500px;
+	}
+	.gifts-wing-left img,
+	.gifts-wing-right img{
+		max-width: 150px;
+	}
 }
 @media(max-width: 767px){
 	.gifts-wing-left{
@@ -110,11 +166,58 @@
 		right: 0;
 		left: 0;
 	}
+	.gifts-wing-mbl-top,
+	.gifts-wing-mbl-btm{
+		display: flex;
+		justify-content: center;
+	}
+	.gifts-wing-left,
+	.gifts-wing-right{
+		display: none;
+	}
+	.GiftsSlider.slick-slider ul.slick-dots, 
+	.fxParkSlider.slick-slider ul.slick-dots{
+		position: static;
+		margin-top: 0;
+	}
+	.GiftsSlider .slick-next, 
+	.GiftsSlider .slick-prev,
+	.fxParkSlider .slick-next, 
+	.fxParkSlider .slick-prev{
+		background-size: contain!important;
+		height: 40px;
+		width: 20px;
+	}
 }
 @media(max-width: 639px){
-	
+	.page-entry-hdr-title br{
+		display: none!important;
+	}
 }
-@media(max-width: 575px){
-	
+@media(max-width: 479px){
+	.gifts-wing-mbl-top,
+	.gifts-wing-mbl-btm{
+		display: none;
+	}
+	.gifts-wing-xs-top,
+	.gifts-wing-xs-btm{
+		display: flex;
+		justify-content: center;
+		left: -105px;
+		right: -105px;
+	}
+	.gifts-wing-xs-top img,
+	.gifts-wing-xs-btm img{
+		display: inline-block;
+		max-width: 479px;
+		width: 100%;
+	}
 }
 
+@media(max-width: 375px){
+	.gifts-wing-xs-top,
+	.gifts-wing-xs-btm{
+		left: 0;
+		right: 0;
+	}
+}

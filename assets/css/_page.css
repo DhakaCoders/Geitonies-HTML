@@ -44,7 +44,7 @@
 	fill: red!important;
 	background-position: center center!important;
 	background-repeat: no-repeat!important;
-	left: 0!important;
+	/*left: 0!important;*/
 }
 .slick-prev:hover{
 	background: url('../images/slider-prev-icon-hvr.svg')!important;
@@ -58,7 +58,7 @@
 	background-size: 100% 100%!important;
 	background-position: center center!important;
 	background-repeat: no-repeat!important;
-	right: 0!important;
+	/*right: 0!important;*/
 }
 .slick-next:hover{
 	background: url('../images/slider-next-icon-hvr.svg')!important;

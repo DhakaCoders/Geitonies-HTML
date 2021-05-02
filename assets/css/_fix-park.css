@@ -40,3 +40,37 @@
 .fxParkSlider.slick-slider .gifts-slider-item-cntlr{
 	display: block;
 }
+
+
+/*responsive*/
+@media(max-width: 1599px){
+	
+}
+@media(max-width: 1499px){
+	
+}
+@media(max-width: 1399px){
+	.fxpark-video-fencybox-cntlr{
+		height: 400px;
+	}
+}
+@media(max-width: 1199px){
+	.fxpark-video-fencybox-cntlr{
+		height: 350px;
+	}
+}
+@media(max-width: 991px){
+	.fxpark-video-fencybox-cntlr{
+		height: 300px;
+	}
+}
+@media(max-width: 767px){
+	.fxpark-video-fencybox-cntlr{
+		height: 250px;
+	}
+}
+@media(max-width: 575px){
+	.fxpark-video-fencybox-cntlr{
+		height: 200px;
+	}
+}
