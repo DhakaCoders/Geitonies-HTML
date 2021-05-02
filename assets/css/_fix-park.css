@@ -37,3 +37,6 @@
 	font-size: 22px;
 	color: #fff;
 }
+.fxParkSlider.slick-slider .gifts-slider-item-cntlr{
+	display: block;
+}
