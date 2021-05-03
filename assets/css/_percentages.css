@@ -242,6 +242,10 @@
 	.prcntg-lkl-icon img{
 		max-width: 100px;
 	}
+	.prcntg-grid-item{
+		height: 280px;
+		width: 280px;
+	}
 }
 @media(max-width: 767px){
 	.prcntgSlider.slick-slider .slick-prev{

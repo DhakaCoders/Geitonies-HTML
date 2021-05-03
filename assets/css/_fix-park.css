@@ -63,6 +63,9 @@
 	.fxpark-video-fencybox-cntlr{
 		height: 300px;
 	}
+	.gifts-page-entry-hdr p br{
+		display: none!important;
+	}
 }
 @media(max-width: 767px){
 	.fxpark-video-fencybox-cntlr{
